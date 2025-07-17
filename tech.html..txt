@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech For Girls</title>
+    <link rel="stylesheet"href="css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form id="registrion">
+    <h2>🍁 Tech For Girls Registration</h2>
+    <label for="Name">Name:</label>
+    <input type="text" placeholder="enter name"required><br><br>
+    <label for="phone number">Phone number:</label>
+    <input type="text" placeholder="enter phone no"required><br><br>
+    <label for="email">E-Mail:</label>
+    <input type="text" placeholder="enter E-Mail id"required><br><br>
+    <label for="college">College Name/Department:</label>
+    <input type="text" placeholder="enter college name"><br><br>
+    <label for="file">📩File Upload</label>
+    <input type="file" id="screenshot">
+<div id="counter">Click Count:0/5</div><br>
+<button type="button" id="shrbtn">🔗share on whatsApp</button><br>
+<p id="finalmsg"></p>
+<button type="button" id="sutbutn">Submit Registration</button>
+    </form>
+<script src="java.js" defer></script>
+
+</body>
+</html>
